@@ -1,0 +1,29 @@
+body {background-color: #FCFCFC}
+
+/* ЗАГОЛОВКИ ТАБЛИЦЫ */
+h2.table-caption {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+tbody tr:hover {
+    cursor: pointer;
+}
+
+/* Выравнивание содержимого ячеек по центру */
+tr, th {
+    text-align: center;
+}
+
+/* Удаление внутренних границ в итоговых строках */
+tfoot td:first-of-type {
+    border-left: none;
+    border-right: none;
+}
+
+tfoot th {border-right: none !important}
+
+tfoot td:last-child {border-left: none}
+
+/* ИТОГОВАЯ СУММА */
+.total-amount {font-size: 1.3rem;}
